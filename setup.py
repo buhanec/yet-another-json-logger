@@ -1,14 +1,12 @@
 from setuptools import find_packages, setup
 
-import yajl
-
 
 with open('README.md') as f:
     long_description = f.read()
 
 setup(
     name='yet-another-json-logger',
-    version=yajl.__version__,
+    version='0.1.0',
     packages=find_packages(),
     author='Alen Buhanec <alen.buhanec@gmail.com>',
     license='MIT',
