@@ -6,7 +6,7 @@ python:
   - 3.9
   - nightly
 install:
-  - pip install --upgrade pip virtualenv
+  - pip install --user --upgrade pip virtualenv  # Travis...
   - pip install -r requirements.txt
   - pip install build
 script:
