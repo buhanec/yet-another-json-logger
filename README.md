@@ -1,3 +1,5 @@
 # yet-another-json-logger
 
-Yet Another JSON Logger - but just the way I want it!
+Yet another JSON logger.
+
+Complete with opinionated decisions and hardcoded personal preferences.
