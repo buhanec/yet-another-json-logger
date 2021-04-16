@@ -14,6 +14,10 @@ import traceback
 from types import TracebackType
 from typing import Any, Callable, Dict, List, Type, Union
 
+__all__ = ('JsonFormatter', 'JSON', 'JSONType', 'ExcSeraliser')
+
+__version__ = '0.1.0'
+
 _JT3 = Union[str, int, float, bool, None, Dict[str, Any], List[Any]]
 _JT2 = Union[str, int, float, bool, None, Dict[str, _JT3], List[_JT3]]
 _JT1 = Union[str, int, float, bool, None, Dict[str, _JT2], List[_JT2]]
