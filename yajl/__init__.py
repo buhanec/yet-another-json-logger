@@ -59,6 +59,7 @@ def _exc_serialiser(exc_class: Type[Exception],
 
 
 class JsonFormatter(logging.Formatter):
+    """JSON logging formatter."""
 
     @wraps(logging.Formatter.__init__)
     def __init__(self,
