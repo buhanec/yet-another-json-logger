@@ -6,6 +6,7 @@ before_script:
   - python3 -V
   - python3 -m venv venv
   - source venv/bin/activate
+  - pip install --upgrade pip virtualenv
   - pip install --upgrade pytest
   - pip install --upgrade pylint
   - pip install --upgrade build
