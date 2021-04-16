@@ -4,6 +4,12 @@ Yet another JSON logger.
 
 Complete with opinionated decisions and hardcoded personal preferences.
 
+## Installation
+
+```json
+pip install yet-another-json-logger
+```
+
 ## Usage
 
 ```python
